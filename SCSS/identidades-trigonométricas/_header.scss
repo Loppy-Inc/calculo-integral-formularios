@@ -1,0 +1,16 @@
+header {
+    background: #343a40;
+    color: white;
+    grid-area: header;
+    h1 {
+        display: inline-block;
+        font-size: 2em;
+        margin: 0;
+        padding: 1rem;
+    }
+    .home {
+        float: right;
+        margin: 0;
+        padding: 1em;
+    }
+}

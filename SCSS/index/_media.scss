@@ -1,0 +1,30 @@
+@media (max-width: 1140px) {
+    body {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 960px) {
+    body {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 720px) {
+    body {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width: 540px) {
+    body {
+        font-size: 9px !important;
+        .layout {
+            main {
+                .btn-lg {
+                    font-size: 0.625rem;
+                }
+            }
+        }
+    }
+}

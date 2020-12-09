@@ -1,0 +1,45 @@
+@media (max-width: 1140px) {
+    body {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 960px) {
+    body {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 720px) {
+    body {
+        font-size: 10px !important;
+        .layout {
+            main {
+                img {
+                    width: 230px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    body {
+        font-size: 9px !important;
+        .layout {
+            header {
+                .home {
+                    font-size: 2em;
+                }
+            }
+            main {
+                .btn-lg {
+                    font-size: 0.625rem;
+                }
+                img {
+                    width: 140px;
+                }
+            }
+        }
+    }
+}

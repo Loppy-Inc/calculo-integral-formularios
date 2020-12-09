@@ -1,0 +1,16 @@
+main {
+    grid-area: main;
+    .cards {
+        margin: 3em;
+        h2 {
+            color: steelblue;
+            font-size: 1.5em;
+        }
+        p {
+            color: #7C7C7C;
+        }
+        th {
+            font-size: 1.8em;
+        }
+    }
+}

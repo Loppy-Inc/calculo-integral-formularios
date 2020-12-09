@@ -1,0 +1,70 @@
+body {
+  background: #F1F1F1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px !important; }
+
+.layout {
+  display: grid;
+  grid-template-areas: 'header header header' 'main   main   main' 'footer footer footer';
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto); }
+
+header {
+  background: #343a40;
+  color: white;
+  grid-area: header; }
+  header h1 {
+    display: inline-block;
+    font-size: 2em;
+    margin: 0;
+    padding: 1rem; }
+  header .home {
+    float: right;
+    margin: 0;
+    padding: 1em; }
+
+main {
+  grid-area: main; }
+  main .cards {
+    margin: 3em; }
+    main .cards h2 {
+      color: steelblue;
+      font-size: 1.5em; }
+    main .cards p {
+      color: #7C7C7C; }
+    main .cards th {
+      font-size: 1.8em; }
+
+footer {
+  background: #343a40;
+  grid-area: footer; }
+  footer p {
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    margin: 1.6em;
+    padding: 1.6em; }
+
+@media (max-width: 1140px) {
+  body {
+    font-size: 14px !important; } }
+
+@media (max-width: 960px) {
+  body {
+    font-size: 12px !important; } }
+
+@media (max-width: 720px) {
+  body {
+    font-size: 10px !important; }
+    body .layout main img {
+      width: 230px; } }
+
+@media (max-width: 540px) {
+  body {
+    font-size: 9px !important; }
+    body .layout header .home {
+      font-size: 2em; }
+    body .layout main .btn-lg {
+      font-size: 0.625rem; }
+    body .layout main img {
+      width: 140px; } }
